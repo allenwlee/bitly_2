@@ -4,6 +4,7 @@ class Url < ActiveRecord::Base
   before_save
 
   def valid_url?
+    if :long_url ~=/\/
 
   end
 
