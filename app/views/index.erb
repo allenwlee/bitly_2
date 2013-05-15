@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>sh-URL-it</h1>
+  <form method="post" action="/urls">
+    <input type="text" name="long_url">
+  </form>
+</div>
+<div class="container">
+  <% if @short_url %>
+    <%=@short_url
